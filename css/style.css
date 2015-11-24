@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,900,300|Roboto+Condensed:400,700);
+ 
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,.nav-pills > li > a:hover {
+ color:#202a36!important;
+ border-radius:0px;    
+ border: none;
+ border-bottom-width: 2px;
+border-bottom-style: solid;
+ background-color: transparent !important;
+}
+
+.navbar { background:#FFF; border: none; box-shadow:none; top:10px; }
+ 
+.nav-pills > li > a{
+ color: #13529d !important;
+ border: none;
+     top:10px; 
+background-color: transparent !important;    
+color: #333333;
+-o-transition: color 0.5s linear;
+-moz-transition: color 0.5s linear;
+-khtml-transition: color 0.5s linear;
+-webkit-transition: color 0.5s linear;
+-ms-transition: color 0.5s linear;
+transition: color 0.5s linear;
+ font-size: 18px;   
+}
+
+
+/* Vídeo Screan Top Bg */
+
+.full_image { background: url(images/Layer-4.png)center center fixed no-repeat;
+ -moz-background-size: cover;
+ background-size: cover;
+ 
+    font-size:3m; font-family:Roboto; height: 528px;   }
+
+
+.fullscreen-bg {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+     height:528px;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:528px;
+}
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 528px;
+  }
+}
+/* End Vídeo Screan Top Bg */
+
+.btn-xlarge {
+    padding: 8px 18px;
+    font-size:22px;
+    width: 100%;
+    font-weight: 300;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+    }
+
+
+
+
+.content2 { margin-top: 20px;}
+
+.headline { color: #ffffff; font-size: 37px;
+    font-family: Roboto; text-shadow: 3px 5px 3px rgba(0, 18, 28, 0.66); top: 212px;}
+
+.newsletter { background: #1d252f; border-radius: 8px; color:white;}
+.newsletter form legend { border: none; color: #fff; font-size:14px; padding-top:10px; }
+.icons_home { font-size:8em; text-align: center; padding-top:20px; color: #202a36 }
+
+.btop { padding: 5px;}
+
+
+.footer {   background-color:#28333f;
+    -webkit-box-shadow: 14px 14px 76px 22px rgba(0,0,0,0.38);
+-moz-box-shadow: 14px 14px 76px 22px rgba(0,0,0,0.38);
+box-shadow: 14px 14px 56px 22px rgba(0,0,0,0.38); padding-top:30px; padding-bottom: 50px; margin-top: 50px;
+    height:658px;
+ ; }
+
+.finish { color: #fff; }
+
+.finish form input, form select { height: 50px; font-size: 2em;}
+.finish form select { height: 50px; font-size: 2em;}
+.assinatura { margin-top: 60px; color: #f6ebd5}
